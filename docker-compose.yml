@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  tp-knowledge-graph-db:
+    image: neo4j:5.18-community
+    container_name: tp-knowledge-graph-db-1
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/KnowledgeGraph2026!
+      - NEO4J_PLUGINS=["apoc"]
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "KnowledgeGraph2026!", "RETURN 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped

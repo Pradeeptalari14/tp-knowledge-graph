@@ -1,0 +1,12 @@
+{
+  "name": "@pradeeptalari/tp-knowledge-graph",
+  "version": "1.0.0",
+  "description": "Knowledge Graph & Entity Extraction Studio (GraphRAG)",
+  "main": "index.js",
+  "scripts": {
+    "validate": "bash scripts/validate.sh"
+  },
+  "keywords": ["knowledge-graph", "graphrag", "nlp", "gliner", "neo4j", "networkx", "manim"],
+  "author": "Pradeep Talari",
+  "license": "MIT"
+}
