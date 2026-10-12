@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # Knowledge Graph & Entity Extraction Studio (GraphRAG)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -76,3 +79,6 @@ bash scripts/validate.sh
 
 - **License:** [MIT License](LICENSE)
 - **Security:** See [SECURITY.md](SECURITY.md) for vulnerability disclosure.
+
+---
+*Synchronized with [Knowledge Graph & Entity Extraction Studio Studio](https://pradeeptalari.me/tools/knowledge-graph/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
